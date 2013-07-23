@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form Gen Demo</title>
+        <link rel="stylesheet" href="http://twitter.github.com/bootstrap/1.4.0/bootstrap.min.css">
+        <script src="reformer.bundle.js"></script>
+        <script src="test.js"></script>
+    </head>
+    <body>
+        <div class="container offset4 span8">
+            <h1>Reformer Demo</h1>
+            <p>This form is rendered entirely on the client-side by Reformer and all form behavior is managed by Reformer.</p>
+            <p>I'm using twitter bootstrap to add some basic styles, but the only required HTML are the name/type/value attributes of the input variables.</p>
+            <form id="myForm">
+                <div id="fields"></div>
+                <button class="btn primary" type="submit">Submit</button>
+                <button class="btn" type="submit">Cancel</button>
+            </form>
+
+            <form id="customForm">
+                <p>A form field thing here</p>
+                <div id="specialField"></div>
+                <p>Some intro text</p>
+                <button class="btn primary" type="submit">Submit</button>
+                <button class="btn" type="submit">Cancel</button>
+            </form>
+        </div>
+    </body>
+</html>
