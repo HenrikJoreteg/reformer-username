@@ -2,7 +2,7 @@
     "name": "reformer-username",
     "version": "0.1.0",
     "author": "Henrik Joreteg <henrik@andyet.net>",
-    "description": "Field plugin for handling the annoying problem of username validataion in forms",
+    "description": "Field plugin for reformer, that handles the annoying problem of username validataion in forms.",
     "devDependencies": {
         "browserify": "2.25.0",
         "uglify-js": "2.3.6"
