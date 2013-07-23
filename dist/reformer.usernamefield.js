@@ -88,7 +88,7 @@ module.exports = function (opts) {
         var self = this;
         var container = $(this.fieldContainer).parent();
 
-        container.delegate('input', 'change keyup', debounce(function () {
+        container.delegate('input', 'keyup', debounce(function () {
             var val = $(this).val();
             if (val) {
                 result.tests[0].test.call(self, val);

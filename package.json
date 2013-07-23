@@ -1,6 +1,6 @@
 {
     "name": "reformer-username",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "author": "Henrik Joreteg <henrik@andyet.net>",
     "description": "Field plugin for reformer, that handles the annoying problem of username validataion in forms.",
     "devDependencies": {
